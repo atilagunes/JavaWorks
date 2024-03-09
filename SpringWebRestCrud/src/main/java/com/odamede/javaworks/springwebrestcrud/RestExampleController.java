@@ -1,4 +1,4 @@
-package com.odamede.javaworks.springwebrestcrud;
+package com.odamede.javanotes.springwebrestcrud;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -25,12 +25,12 @@ public class RestExampleController {
         return ResponseEntity.of(Optional.of(result));
     }
 
-    /*
-        call example: /v1/rest-example-one/like-request-param?stringValue=Merhaba Dev&uuidValue=230ced7e-0eae-472f-b768-752ffbaf74b4&integerValue=5
-        In record, you can't use @NotNull annotation yet, because in NotNull annotation, ElementType.RECORD_COMPONENT is not used.
+/*
+    call example: /v1/rest-example-one/like-request-param?stringValue=Merhaba Dev&uuidValue=230ced7e-0eae-472f-b768-752ffbaf74b4&integerValue=5
+    In record, you can't use @NotNull annotation yet, because in NotNull annotation, ElementType.RECORD_COMPONENT is not used.
 
-        In this example, you can use a record or dto without any annotation on it to use it like request param parameters.
-     */
+    In this example, you can use a record or dto without any annotation on it to use it like request param parameters.
+ */
     @GetMapping("/like-request-param")
     public ResponseEntity<String> getWithRecordLikeRequestParam(RequestRecord record){
         String result = "<h3>StringValue : "+record.stringValue() + "</h3><h3>UUIDValue : "+ record.uuidValue().toString()+"</h3><h3>IntegerValue: "+record.integerValue()+"</h3>";

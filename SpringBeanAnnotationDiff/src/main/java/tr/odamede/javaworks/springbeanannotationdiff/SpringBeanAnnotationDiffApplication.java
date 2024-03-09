@@ -1,13 +1,13 @@
-package com.odamede.javanotes.springwebrestcrud;
+package tr.odamede.javaworks.springbeanannotationdiff;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringWebRestCrudApplication {
+public class SpringBeanAnnotationDiffApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringWebRestCrudApplication.class, args);
+        SpringApplication.run(SpringBeanAnnotationDiffApplication.class, args);
     }
 
 }
