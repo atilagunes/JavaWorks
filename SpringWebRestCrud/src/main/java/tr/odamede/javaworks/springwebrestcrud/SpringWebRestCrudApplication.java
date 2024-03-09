@@ -1,4 +1,4 @@
-package com.odamede.javanotes.springwebrestcrud;
+package tr.odamede.javaworks.springwebrestcrud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

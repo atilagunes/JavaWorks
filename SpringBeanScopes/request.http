@@ -1,0 +1,32 @@
+GET http://localhost:8080/v1/scope-test-one/default
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-two/default
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-one/request
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-two/request
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-one/prototype
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-two/prototype
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-one/session
+Accept: application/json
+
+###
+GET http://localhost:8080/v1/scope-test-two/session
+Accept: application/json
+
+###

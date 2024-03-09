@@ -1,4 +1,4 @@
-package com.odamede.javanotes.springwebrestcrud;
+package tr.odamede.javaworks.springwebrestcrud;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

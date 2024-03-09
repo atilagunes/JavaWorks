@@ -1,0 +1,37 @@
+POST http://localhost:8080/yazar
+Content-Type: application/json
+
+{
+  "id": "2f9d496a-5392-4f24-a160-6e2fa97fd9e8",
+  "name": "Aym58",
+  "books": [
+    {
+      "name": "Kitap58",
+      "pageSize": 100
+    }
+  ]
+}
+
+###
+POST http://localhost:8080/yazar
+Content-Type: application/json
+
+{
+  "id": "2f9d496a-5392-4f24-a160-6e2fa97fd9e8",
+  "name": "Aym589"
+}
+
+###
+POST http://localhost:8080/calisan
+Content-Type: application/json
+
+{
+  "name": "Calisan1",
+  "emails": [
+    {
+      "address": "email1"
+    }
+  ]
+}
+
+###

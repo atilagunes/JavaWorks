@@ -1,4 +1,4 @@
-package com.odamede.javanotes.springwebrestcrud;
+package tr.odamede.javaworks.springwebrestcrud;
 
 import java.util.UUID;
 
