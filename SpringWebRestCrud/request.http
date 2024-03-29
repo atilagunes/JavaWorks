@@ -1,3 +1,9 @@
+POST http://localhost:80/api/item
+Content-Type: application/json
+
+{}
+
+###
 GET http://localhost:8080/v1/rest-example-one/Merhaba Dev/230ced7e-0eae-472f-b768-752ffbaf74b4/5
 Accept: application/json
 

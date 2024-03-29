@@ -6,14 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringInterceptor" />
         <module name="SpringBeanAnnotationDiff" />
         <module name="SpringWebRestCrud" />
+        <module name="SpringOncePerRequestFilter" />
+        <module name="Filter" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Filter" options="-parameters" />
       <module name="SpringBeanAnnotationDiff" options="-parameters" />
+      <module name="SpringInterceptor" options="-parameters" />
+      <module name="SpringOncePerRequestFilter" options="-parameters" />
       <module name="SpringWebRestCrud" options="-parameters" />
     </option>
   </component>
