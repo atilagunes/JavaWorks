@@ -6,10 +6,8 @@
       <list>
         <option value="$PROJECT_DIR$/SpringWebRestCrud/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBeanAnnotationDiff/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringInterceptorVsFilter/pom.xml" />
-        <option value="$PROJECT_DIR$/Filter/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringInterceptor/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringOncePerRequestFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringValidation/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringDataJpa/pom.xml" />
       </list>
     </option>
   </component>
