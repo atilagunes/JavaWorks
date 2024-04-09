@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/SpringDataJpa/pom.xml" />
         <option value="$PROJECT_DIR$/SpringOncePerRequestFilter/pom.xml" />
         <option value="$PROJECT_DIR$/SpringInterceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/Multithreading/pom.xml" />
       </list>
     </option>
   </component>
