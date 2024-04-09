@@ -11,8 +11,8 @@
     <groupId>com.odamede</groupId>
     <artifactId>SpringInterceptor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringInterceptorVsFilter</name>
-    <description>SpringInterceptorVsFilter</description>
+    <name>SpringInterceptor</name>
+    <description>SpringInterceptor</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -30,12 +30,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.30</version>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-            <version>1.4.14</version>
+            <version>1.18.32</version>
         </dependency>
     </dependencies>
 
