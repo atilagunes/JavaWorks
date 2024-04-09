@@ -2,13 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SpringInterceptor" />
         <module name="SpringBeanAnnotationDiff" />
         <module name="SpringValidation" />
         <module name="SpringWebRestCrud" />
+        <module name="SpringOncePerRequestFilter" />
         <module name="SpringDataJpa" />
       </profile>
     </annotationProcessing>
@@ -21,6 +24,8 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="SpringBeanAnnotationDiff" options="-parameters" />
       <module name="SpringDataJpa" options="-parameters" />
+      <module name="SpringInterceptor" options="-parameters" />
+      <module name="SpringOncePerRequestFilter" options="-parameters" />
       <module name="SpringValidation" options="-parameters" />
       <module name="SpringWebRestCrud" options="-parameters" />
     </option>

@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/SpringBeanAnnotationDiff/pom.xml" />
         <option value="$PROJECT_DIR$/SpringValidation/pom.xml" />
         <option value="$PROJECT_DIR$/SpringDataJpa/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringOncePerRequestFilter/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringInterceptor/pom.xml" />
       </list>
     </option>
   </component>

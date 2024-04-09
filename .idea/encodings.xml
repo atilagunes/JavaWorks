@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/SpringBeanAnnotationDiff/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDataJpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringInterceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SpringOncePerRequestFilter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringValidation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringWebRestCrud/src/main/java" charset="UTF-8" />
   </component>
